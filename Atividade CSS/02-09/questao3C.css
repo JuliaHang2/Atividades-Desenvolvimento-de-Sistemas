@@ -1,0 +1,112 @@
+#titulo{
+    background-color: rgb(240, 235, 235);
+    width: 850px;
+    height: 65px;
+    position: absolute;
+    left: 30%;
+}
+#subtitulo{
+    background-color: rgb(189, 189, 189);
+    color: white;
+    width: 850px;
+    height: 65px;
+    position: absolute;
+    left: 30%;
+    top: 7.7%;
+}
+#e1{
+    position: absolute;
+    left: 30%;
+    top: 17%;
+}
+#e11{
+    position: absolute;
+    left: 30%;
+    top: 18%; 
+    color:rgb(10, 10, 165);
+    font-size: 30px;
+}
+#e2{
+    position: absolute;
+    left: 30%;
+    top: 30%;
+}
+#e21{
+    position: absolute;
+    left: 30%;
+    top: 32%; 
+    color:rgb(71, 71, 187);
+    font-size: 20px;
+}
+#e22{
+    position: absolute;
+    left: 28.7%;
+    top: 38%; 
+    color:rgb(71, 71, 187);
+    font-size: 17px;
+}
+#img1{
+    position: absolute;
+    left: 30%;
+    top: 49%;
+}
+#e3{
+    position: absolute;
+    left: 37%;
+    top: 48%;
+}
+#e31{
+    position: absolute;
+    left: 37%;
+    top: 51%; 
+    color:rgb(71, 71, 187);
+    font-size: 20px;
+}
+#e4{
+    position: absolute;
+    left: 52%;
+    top: 17%; 
+}
+#e41{
+    position: absolute;
+    left: 52%;
+    top: 19%; 
+    color:rgb(71, 71, 187);
+    font-size: 20px;
+}
+#e42{
+    position: absolute;
+    left: 50.7%;
+    top: 24.5%; 
+    color:rgb(71, 71, 187);
+    font-size: 17px;
+}
+#e5{
+    position: absolute;
+    left: 52%;
+    top: 31%; 
+}
+#e51{
+    position: absolute;
+    left: 52%;
+    top: 33%; 
+    color:rgb(71, 71, 187);
+    font-size: 20px;
+}
+#img2{
+    position: absolute;
+    left: 52%;
+    top: 49%;
+}
+#e6{
+    position: absolute;
+    left: 60%;
+    top: 49%; 
+}
+#e61{
+    position: absolute;
+    left: 60%;
+    top: 52%; 
+    color:rgb(71, 71, 187);
+    font-size: 20px; 
+}

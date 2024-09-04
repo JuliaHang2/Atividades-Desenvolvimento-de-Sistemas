@@ -1,0 +1,34 @@
+
+#q1{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #F00;
+    top: 0;
+    left: 0;
+
+}
+#q2{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    top: 0;
+    right: 0;
+}
+#q3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    bottom: 0;
+    left: 0;
+}
+#q4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #00F;
+    bottom: 0;
+    right: 0;
+}

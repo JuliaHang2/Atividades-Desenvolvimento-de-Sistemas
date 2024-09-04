@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploração Completa de Tags HTML</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exploração Completa HTML</h1>
+        <p>Júlia Hang</p>
+        <p><small>29/08/2024</small></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#secao1">Seção 1</a></li>
+            <li><a href="#secao2">Seção 2</a></li>
+            <li><a href="#secao3">Seção 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="secao1">
+            <h2>Seção 1: </h2>
+            <h3>Cabeçalhos e Parágrafos</h3>
+            <p>Exemplos de formatação: <strong>negrito,</strong> <em>ênfase,</em> <mark>marcação</mark> e <i>itálico</i>.</p>
+            <p><u>Texto sublinhado</u> e <small>texto pequeno</small>. <sub>Notação inferior</sub> e <sup>notação superior</sup>.</p>
+            <p>Texto com <del>remoção</del> e <ins>adição</ins>. Código: <code>console.log('Hello World');</code></p>
+            <pre><code>function greet() {
+    console.log('Hello');
+}</code></pre>
+            <blockquote cite="https://example.com">
+                <p>“Citação.”</p>
+            </blockquote>
+            <q>Citação em linha.</q>
+            <hr>
+        </section>
+
+        <section id="secao2">
+            <h2>Seção 2: </h2>
+            <h3>Links e Imagens</h3>
+            <a href="https://pt.wikipedia.org/wiki/Flor" target="_blank">Clique aqui!</a>
+            <br>
+            <a href="#secao1">Voltar para Seção 1</a>
+            <figure>
+                <img src="borboleta.jpg" width="15%" alt="1">
+                <figcaption>Borboleta 1</figcaption>
+            </figure>
+            <figure>
+                <img src="flor.jpg" width="15%" alt="2">
+                <figcaption>Flor 1</figcaption>
+            </figure>
+            <figure>
+                <img src="borboleta 2.webp" width="15%" alt="3">
+                <figcaption>Borboleta 2</figcaption>
+            </figure>
+            <figure>
+                <img src="flor 2.webp" width="15%" alt="4">
+                <figcaption>Flor 2</figcaption>
+            </figure>
+            <hr>
+        </section>
+
+        <section id="secao3">
+            <h2>Seção 3: </h2>
+            <h3>Multimídia, Tabelas e Listas</h3>
+            <h4>Multimídia</h4>
+            <audio controls>
+                <source src="Luan Santana - Te esperando (Clipe Oficial) - Part. Giovanna Lancellotti.mp4" type="audio/mpeg">
+                Seu navegador não suporta o elemento <code>audio</code>.
+            </audio>
+            <br>
+            <video width="320" height="240" controls>
+                <source src="Luan Santana - Te esperando (Clipe Oficial) - Part. Giovanna Lancellotti.mp4" type="video/mp4">
+                Seu navegador não suporta o elemento <code>video</code>.
+            </video>
+            <br>
+            <embed src="Luan Santana - Te esperando (Clipe Oficial) - Part. Giovanna Lancellotti.mp4" width="300" height="200">
+            <iframe src="https://youtu.be/Z5pWz_OR5Sg" width="300" height="200"></iframe>
+            <hr>
+
+            <h4>Tabelas</h4>
+            <table border="1">
+                <caption>Tabela</caption>
+                <thead>
+                    <tr>
+                        <th>Borboletas</th>
+                        <th>Flores</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2</td>
+                        <td>2</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">Quantidades</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <hr>
+
+            <h4>Listas afazeres</h4>
+            <ol>
+                <li>Mercado</li>
+                <li>Salão</li>
+            </ol>
+            <h5>Lista de supermercado:</h5>
+            <ul>
+                <li>Pão</li>
+                <li>Café</li>
+            </ul>
+            <dl>
+                <dt>Supermercado</dt>
+                <dd>Grande estabelecimento comercial de autosserviço onde se exibem à venda mercadorias variadas (gêneros alimentícios, artigos para limpeza doméstica e higiene pessoal, bebidas, artigos para a casa etc.).</dd>
+            </dl>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Seção 4: </h2>
+            <h3>Formulários</h3>
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Informações Pessoais</legend>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <br>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
+                    <br>
+                    <label for="opcoes">Opções:</label>
+                    <select id="opcoes" name="opcoes">
+                        <option value="op1">Opção 1</option>
+                        <option value="op2">Opção 2</option>
+                    </select>
+                    <br>
+                    <fieldset>
+                        <legend>Escolhas</legend>
+                        <label><input type="checkbox" name="escolhas" value="1"> Escolha 1</label>
+                        <label><input type="checkbox" name="escolhas" value="2"> Escolha 2</label>
+                    </fieldset>
+                    <br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Seção 5: </h2>
+            <h3>Seções e Agrupamentos</h3>
+            <div>
+                <h3>Divisão</h3>
+                <p>Conteúdo em um <div>.</p>
+            </div>
+            <span>Texto em <span>.</span></span>
+            <aside>
+                <h4>Barra Lateral</h4>
+                <p>Conteúdo adicional.</p>
+            </aside>
+            <address>
+                <p>Contato: <a href="mailto:exemplo@example.com=">jdecostahang@gmail.com</a></p>
+            </address>
+            <details>
+                <summary>Mais Detalhes</summary>
+                <p>Informações adicionais.</p>
+            </details>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Seção 6: Elementos Semânticos e Scripts</h2>
+            <time datetime="29/08/24">29 de Agosto de 2024</time>
+            <br>
+            <progress value="70" max="100">70%</progress>
+            <br>
+            <meter value="0.7">70%</meter>
+            <br>
+            <canvas id="meuCanvas" width="200" height="200"></canvas>
+            <script>
+                var canvas = document.getElementById('meuCanvas');
+                var ctx = canvas.getContext('2d');
+                ctx.fillStyle = 'pink';
+                ctx.fillRect(10, 10, 150, 150);
+            </script>
+            <noscript>
+                <p>Seu navegador não suporta JavaScript.</p>
+            </noscript>
+            <hr>
+        </section>
+
+        <section>
+            <h2>Seção 7: </h2>
+            <h3>Outros Elementos</h3>
+            <map name="mapa-imagem">
+                <area shape="rect" coords="34,44,270,350" href="https://pt.wikipedia.org/wiki/Flor" alt="Exemplo">
+            </map>
+            <img src="flor.jpg" usemap="#mapa-imagem" alt="Imagem com mapa">
+            <template id="template">
+                <p>Conteúdo reutilizável</p>
+            </template>
+            <hr>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Júlia Hang</p>
+    </footer>
+</body>
+</html>

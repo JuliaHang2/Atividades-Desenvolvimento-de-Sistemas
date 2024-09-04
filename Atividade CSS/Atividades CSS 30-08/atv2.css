@@ -1,0 +1,31 @@
+.div1{
+    background-color: lightblue;
+}
+.div2{
+    background-color: lightgreen;
+}
+.div3{
+    background-image:url('girassol.webp');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+.div4{
+    background-image:url('girassol.webp');
+    background-repeat: repeat-y;
+}
+.div5{
+    background-image: url('girassol.webp');
+    background-repeat:no-repeat;
+}
+.div6{
+    background-image: url('girassol.webp'); 
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.div7{
+    background-image: url('girassol.webp'); 
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    background-color: yellow;
+}

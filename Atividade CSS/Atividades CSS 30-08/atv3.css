@@ -1,0 +1,22 @@
+#exemplo1{
+  font-family: Arial;
+  color: red;  
+}
+#exemplo2{
+  font-family: Times;
+  font-size: 22px;
+  color: green;
+}
+#exemplo3{
+    font-family: Comic sans-serif;
+    font-size: 20px;
+    color: blue;
+    font-style: italic;
+}
+#exemplo4{
+    color: yellow;
+    font-style: bold;
+    font-size: 14px;
+    font-weight: medium;
+    font-family: Verdana;
+}

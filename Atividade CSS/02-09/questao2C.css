@@ -1,0 +1,37 @@
+#topo{
+    width: 500px;
+    height: 100px;
+    background-color: green;
+    margin: 0 auto;
+    
+}
+#le{
+    width: 100px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    left: 37%;
+}
+#ld{
+    width: 100px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    left: 57.8%;
+}
+#conteudo{
+    width: 300px;
+    height: 400px;
+    background-color: lightblue;
+    position: absolute;
+    left: 42.2%;
+    
+}
+#rodape{
+    width: 500px;
+    height: 40px;
+    background-color: green;
+    position: absolute;
+    top: 53%;
+    left: 37%;
+}
