@@ -1,0 +1,112 @@
+#p1{
+   background-color: lightblue; 
+   width: 50%;
+   height: 3%;
+   position: absolute;
+   top: 0;
+}
+#p2{
+    background-color: darkblue;
+    width: 30%;
+    height: 3%;
+    position: absolute;
+    left: 50.3%;
+    top: 0;
+}
+#nome{
+    position: absolute;
+    top: 6%;
+}
+#nome1{
+    width: 400px;
+    height: 20px;
+}
+#nomeCompleto{
+    position: absolute;
+    top: 9%;
+}
+#nomeCompleto1{
+    width: 400px;
+    height: 20px;
+}
+
+#cpf{
+    position: absolute;
+    top: 14%;
+}
+#email{
+    position: absolute;
+    top:17%
+}
+#website{
+    position: absolute;
+    top: 20%;
+}
+#endereco{
+    position: absolute;
+    top: 23%;
+}
+#bairro{
+    position: absolute;
+    top: 26%;
+}
+#cep{
+    position: absolute;
+    top:29%;
+}
+#telefone{
+    position: absolute;
+    top: 32%;
+}
+#data{
+    position: absolute;
+    top: 35%;
+}
+#celular{
+    position: absolute;
+    top: 41%;
+}
+#login{
+    position: absolute;
+    top: 45%;
+}
+#cidade{
+    position: absolute;
+    top: 26%;
+    left: 43%;
+}
+#uf{
+    position: absolute;
+    top: 29%;
+    left: 43%;
+}
+#fax{
+    position: absolute;
+    top: 32%;
+    left: 43%;
+}
+#sexo{
+    position: absolute;
+    top: 35%;
+    left: 43%;
+}
+#estado{
+    position: absolute;
+    top: 38%;
+    left: 42.8%;
+}
+#senha{
+    position: absolute;
+    top: 46%;
+    left: 45%;
+}
+#button{
+    position: absolute;
+    top: 61%;
+    left: 1%;
+}
+#button1{
+    position: absolute;
+    top: 61%;
+    left: 5%;
+}

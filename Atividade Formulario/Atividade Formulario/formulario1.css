@@ -1,0 +1,11 @@
+h1,p{
+    text-align: center;
+}
+#input{
+    text-align: center;
+}
+#button{
+    position: absolute;
+    top: 33%;
+    left: 48%;
+}
