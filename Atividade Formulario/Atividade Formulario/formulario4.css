@@ -1,112 +1,211 @@
 #p1{
    background-color: lightblue; 
-   width: 50%;
+   width: 30%;
    height: 3%;
    position: absolute;
    top: 0;
 }
 #p2{
     background-color: darkblue;
-    width: 30%;
+    width: 11.6%;
     height: 3%;
     position: absolute;
-    left: 50.3%;
+    left: 30.5%;
     top: 0;
+}
+#p3{
+    position: absolute;
+    top: 60%;
 }
 #nome{
     position: absolute;
     top: 6%;
 }
 #nome1{
-    width: 400px;
+    width: 700px;
     height: 20px;
+    position: absolute;
+    left: 200%;
 }
 #nomeCompleto{
     position: absolute;
     top: 9%;
 }
 #nomeCompleto1{
-    width: 400px;
+    width: 970%;
     height: 20px;
+    position: absolute;
+    left: 125%;
 }
 
 #cpf{
     position: absolute;
-    top: 14%;
+    top: 15%;
+}
+#cpf1{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 245%;
 }
 #email{
     position: absolute;
-    top:17%
+    top:19%
+}
+#email1{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 195%;
 }
 #website{
     position: absolute;
-    top: 20%;
+    top: 23%;
+}
+#website1{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 145%;
 }
 #endereco{
     position: absolute;
-    top: 23%;
+    top: 27%;
+}
+#endereco1{
+    width: 700px;
+    height: 20px;
+    position: absolute;
+    left: 129%;
 }
 #bairro{
     position: absolute;
-    top: 26%;
+    top: 32%;
+}
+#bairro1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 174%;
 }
 #cep{
     position: absolute;
-    top:29%;
+    top:36%;
+}
+#cep1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 240%;
 }
 #telefone{
     position: absolute;
-    top: 32%;
+    top: 40%;
+}
+#telefone1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 143%;
 }
 #data{
     position: absolute;
-    top: 35%;
+    top: 44%;
+}
+#data1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 104%;
 }
 #celular{
     position: absolute;
-    top: 41%;
+    top: 51%;
+}
+#celular1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 160%;
 }
 #login{
     position: absolute;
-    top: 45%;
+    top: 56%;
+}
+#login1{
+    width: 400px;
+    height: 20px;
+    position: absolute;
+    left: 200%;
 }
 #cidade{
     position: absolute;
-    top: 26%;
-    left: 43%;
+    top: 32%;
+    left: 27%;
+}
+#cidade1{
+    width: 221px;
+    height: 20px;
+    position: absolute;
+    left: 110%;
 }
 #uf{
     position: absolute;
-    top: 29%;
-    left: 43%;
+    top: 36%;
+    left: 27%;
+}
+#uf1{
+    height: 20px;
+    position: absolute;
+    left: 230%;
 }
 #fax{
     position: absolute;
-    top: 32%;
-    left: 43%;
+    top: 40%;
+    left: 27%;
+}
+#fax1{
+    width: 221px;
+    height: 20px;
+    position: absolute;
+    left: 200%;
 }
 #sexo{
     position: absolute;
-    top: 35%;
-    left: 43%;
+    top: 46.5%;
+    left: 27%;
 }
+
 #estado{
     position: absolute;
-    top: 38%;
-    left: 42.8%;
+    top: 51%;
+    left: 27%;
 }
 #senha{
     position: absolute;
-    top: 46%;
-    left: 45%;
+    top: 56.5%;
+    left: 27%;
 }
+#senha1{
+    width: 220px;
+    height: 20px;
+    position: absolute;
+    left: 141%;
+}
+#j{
+    position: absolute;
+    top: 67%;
+}
+    
+    
+
 #button{
     position: absolute;
-    top: 61%;
+    top: 75%;
     left: 1%;
 }
 #button1{
     position: absolute;
-    top: 61%;
+    top: 75%;
     left: 5%;
 }
