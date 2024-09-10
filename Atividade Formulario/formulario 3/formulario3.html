@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario3.css">
+    <title>Formulário Cadastro Geral</title>
+</head>
+<body>
+   <form >
+    <div id="parteExterna">
+        <div  id="redor">
+            <p id="caixa1">Cadastro Geral</p>
+            <div id="q1">
+                <p id="caixa2">Dados pessoais</p>
+                <label id="nome" for="nome">Nome Completo: <br></label>
+                    <input type="text" id="nome1" name="nome" required>
+                    <label id="profissao1" for="profissao">Profissão:</label>
+                    <select id="profissao">
+                        <option value="sua">Sua profissão</option>
+                    </select>
+            </div>
+            <div id="q2">
+                <p id="caixa3">Localização</p>
+                <label id="email" for="email">E-mail: <br></label>
+                    <input type="text" id="email1" name="email" required>
+                <label id="rua" for="rua">Rua: <br></label>
+                    <input type="rua" id="rua1" name="rua" required>
+            </div>
+            <div id="q3">
+                <p id="caixa4">Faixa etária</p>
+                <br><br><input type="radio" id="20">
+                    <label for="20">até 20 anos</label><br>
+                <input type="radio" id="30">
+                    <label for="30">mais de 20 até 30 anos</label><br>
+                <input type="radio" id="40">
+                    <label for="40">mais de 30 até 40 anos</label>
+            <div id="opcao"> 
+                <input type="radio" id="50">
+                    <label for="50">mais de 40 até 50 anos</label><br>
+                <input type="radio" id="60">
+                    <label for="o60">mais de 50 até 60 anos</label><br>
+                <input type="radio" id="70">
+                    <label for="70">mais de 60 anos</label>
+                </div>
+            </div>
+            <div id="q4">
+                <p id="caixa5">Esportes que pratica</p>
+                <br><br><input type="checkbox" id="futebol" >
+            <label for="futebol">Futebol de campo</label><br>
+                <input type="checkbox" id="futebol1">
+            <label for="futebol1">Futebol de salão</label><br>
+                <input type="checkbox" id="futebol2">
+            <label for="futebol2">Futebol society</label><br>
+                <input type="checkbox" id="volley">
+            <label for="volley">Volley de quadra</label><br>
+                <input type="checkbox" id="volley1">
+            <label for="volley1">Volley de praia</label><br>
+                <input type="checkbox" id="natacao">
+            <label for="natacao">Natação em piscina</label><br>
+                <input type="checkbox" id="natacao1">
+            <label for="natacao1">Natação em mar aberto</label><br>
+            </div>
+        </div>
+        <div id="baixo">
+            <p id="caixa6">Comentário</p>
+            <br><br><label for="comment">Mensagem:</label><br>
+        <textarea id="comment" name="comment" required></textarea>
+        </div>
+
+     
+
+    </div>
+
+    <button id="button" type="submit">Enviar</button>
+    <button id="button1" type="reset">Limpar</button>
+
+   </form>
+</body>
+</html>
