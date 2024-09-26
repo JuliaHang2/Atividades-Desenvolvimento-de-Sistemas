@@ -1,0 +1,58 @@
+create table contatos(
+	id serial primary key,
+	nome varchar(50),
+	endereco varchar(50),
+	telefone varchar(20),
+	email varchar(50),
+	celular varchar(20)
+	
+);
+
+create table usuario(
+
+	id serial primary key,
+	nomeUsuario varchar(50),
+	senha varchar(50),
+	email varchar(50),
+	login varchar(50),
+	ativo boolean
+);
+
+Select * from contatos 
+
+Select * from usuario
+
+drop table contatos
+
+drop table usuario
+
+Select * from contatos where nome like 'A%';
+Select * from contatos where nome like 'B%';
+Select * from contatos where nome like 'C%';
+Select * from contatos where nome like 'D%';
+Select * from contatos where nome like 'E%';
+Select * from contatos where nome like 'F%';
+Select * from contatos where nome like 'G%';
+Select * from contatos where nome like 'H%';
+Select * from contatos where nome like 'I%';
+Select * from contatos where nome like 'J%';
+Select * from contatos where nome like 'K%';
+Select * from contatos where nome like 'L%';
+Select * from contatos where nome like 'M%';
+Select * from contatos where nome like 'N%';
+Select * from contatos where nome like 'O%';
+Select * from contatos where nome like 'P%';
+Select * from contatos where nome like 'Q%';
+Select * from contatos where nome like 'R%';
+Select * from contatos where nome like 'S%';
+Select * from contatos where nome like 'T%';
+Select * from contatos where nome like 'U%';
+Select * from contatos where nome like 'V%';
+Select * from contatos where nome like 'W%';
+Select * from contatos where nome like 'X%';
+Select * from contatos where nome like 'Y%';
+Select * from contatos where nome like 'Z%';
+
+Insert Into contatos(nome, endereço, telefone, email, celular)Values('Júlia','Dois Vizinhos','46999146313','jdecostahang@gmail.com','46999146313');
+
+Insert Into usuario(nomeUsuario, senha, email, login, ativo)Values('JuliaHang','123456','jdecostahang@gmail.com','cadastro1','true');
