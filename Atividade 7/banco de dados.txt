@@ -56,3 +56,11 @@ Select * from contatos where nome like 'Z%';
 Insert Into contatos(nome, endereço, telefone, email, celular)Values('Júlia','Dois Vizinhos','46999146313','jdecostahang@gmail.com','46999146313');
 
 Insert Into usuario(nomeUsuario, senha, email, login, ativo)Values('JuliaHang','123456','jdecostahang@gmail.com','cadastro1','true');
+
+Update contatos
+set nome = 'Joao', endereco = 'Curitiba', telefone = '46999865342', email = 'joao@gmail.com', celular = '46999865342'
+where id = 1;
+
+Update usuario 
+set nomeUsuario = 'Lucas', senha = '1234', email = 'lucas@gmail.com', login = 'cadastro1', ativo = 'true'
+where id = 1;
