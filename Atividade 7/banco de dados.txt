@@ -64,3 +64,7 @@ where id = 1;
 Update usuario 
 set nomeUsuario = 'Lucas', senha = '1234', email = 'lucas@gmail.com', login = 'cadastro1', ativo = 'true'
 where id = 1;
+
+delete from contatos where nome = 'Júlia'
+
+delete from usuario where nomeUsuario = 'Larissa'
