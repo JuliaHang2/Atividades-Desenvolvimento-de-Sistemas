@@ -4,7 +4,8 @@ create table contatos(
 	endereco varchar(50),
 	telefone varchar(20),
 	email varchar(50),
-	celular varchar(20)
+	celular varchar(20),
+	idfk int, FOREIGN KEY (idfk) references usuario (id)
 	
 );
 
