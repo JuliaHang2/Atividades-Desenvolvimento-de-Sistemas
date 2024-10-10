@@ -69,3 +69,5 @@ where id = 1;
 delete from contatos where nome = 'Júlia'
 
 delete from usuario where nomeUsuario = 'Larissa'
+
+SELECT nome, endereco, telefone, email, celular, id FROM contatos WHERE nome like LOWER('j%') AND id = 1;
