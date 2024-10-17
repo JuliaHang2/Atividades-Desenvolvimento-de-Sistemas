@@ -5,6 +5,7 @@ create table contatos(
 	telefone varchar(20),
 	email varchar(50),
 	celular varchar(20),
+	imagem varchar(225),
 	idfk int, FOREIGN KEY (idfk) references usuario (id)
 	
 );
@@ -72,10 +73,6 @@ delete from usuario where nomeUsuario = 'Larissa'
 
 SELECT nome, endereco, telefone, email, celular, id FROM contatos WHERE nome like LOWER('j%') AND id = 1;
 
-
-
 SELECT nome, endereco, telefone, email, celular, idfk FROM contatos WHERE idfk = 3;
-
-
 
 INSERT INTO contatos (nome, endereco, telefone, email, celular,idfk) VALUES ('Lucas', 'dv', '156', 'lucas@gmail.com', '51455',);
