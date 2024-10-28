@@ -1,17 +1,3 @@
-
-
-Skip to content
-Using Gmail with screen readers
-Enable desktop notifications for Gmail.   OK  No thanks
-You'll stop getting emails on Nov 2
-You don't have enough storage. Starting Nov 2, emails sent to you will be bounced back to the sender and can't be recovered. Get more storage — 75% off for 2 months or delete items from Google Photos, Drive, or Gmail.
-Conversations
-      
-15.01 GB of 15 GB (100%) used
-Terms · Privacy · Program Policies
-Last account activity: 24 minutes ago
-Details
-
 CREATE DATABASE Projeto_Integrador;
 
 CREATE TABLE Cadastro (
@@ -72,6 +58,3 @@ CREATE TABLE CursosPessoais (
     matrizCurricularPessoal TEXT,
     precoCursoPessoal DECIMAL(10, 2) NOT NULL
 );
-
-CREATE DATABASE Projeto_Integrador;.txt
-Displaying CREATE DATABASE Projeto_Integrador;.txt.
