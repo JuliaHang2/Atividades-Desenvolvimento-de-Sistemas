@@ -21,6 +21,13 @@ create table usuario(
 	ativo boolean
 );
 
+CREATE TABLE chat (
+    id_chat SERIAL PRIMARY KEY,
+    nome INT NOT NULL,
+    msg TEXT NOT NULL,
+    FOREIGN KEY (idfk) REFERENCES usuario(id) ON DELETE CASCADE
+);
+
 Select * from contatos 
 
 Select * from usuario
@@ -28,6 +35,8 @@ Select * from usuario
 drop table contatos
 
 drop table usuario
+
+drop table chat
 
 Select * from contatos where nome like 'A%';
 Select * from contatos where nome like 'B%';
