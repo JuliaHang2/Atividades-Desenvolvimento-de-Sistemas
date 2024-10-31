@@ -23,10 +23,12 @@ create table usuario(
 
 CREATE TABLE chat (
     id_chat SERIAL PRIMARY KEY,
-    nome INT NOT NULL,
+	user_id int,
+    nome VARCHAR(50) NOT NULL,
     msg TEXT NOT NULL,
-    FOREIGN KEY (idfk) REFERENCES usuario(id) ON DELETE CASCADE
+    idfk int, FOREIGN KEY (idfk) REFERENCES usuario(id) ON DELETE CASCADE
 );
+
 
 Select * from contatos 
 
