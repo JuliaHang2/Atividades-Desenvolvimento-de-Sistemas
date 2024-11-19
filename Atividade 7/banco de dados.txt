@@ -29,6 +29,16 @@ CREATE TABLE chat (
     idfk int, FOREIGN KEY (idfk) REFERENCES usuario(id) ON DELETE CASCADE
 );
 
+CREATE TABLE tarefas
+(
+	id_tarefas serial PRIMARY KEY,
+	tarefa varchar(255),
+	concluida BOOL,
+	data date DEFAULT CURRENT_TIMESTAMP,
+	idfk int, FOREIGN KEY (idfk) references usuario (id)
+);
+ALTER TABLE tarefas ADD COLUMN data_entrega DATE;
+
 
 Select * from contatos 
 
